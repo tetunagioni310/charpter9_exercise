@@ -73,3 +73,39 @@ footer {
   background-color: #AAAAAA;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .photo1 {
+    padding-top: 36%;
+  }
+
+  .photo2 {
+    padding-top: 36%;
+  }
+
+  .photo3 {
+    padding-top: 36%;
+  }
+
+  .step {
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+ .step:last-child {
+   margin: 0 auto 0 auto;
+ }
+
+  footer {
+    width: 100%;
+  }
+}
